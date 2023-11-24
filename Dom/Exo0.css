@@ -1,0 +1,34 @@
+nav
+{
+    background-color: lightblue;
+    display: flex;
+    height: 5vh;
+    align-content: center;
+    justify-content: space-around;
+}
+
+nav input[type="button"]
+{
+    height: 3vh;
+    width: 10vw;
+}
+
+#grid
+{
+    display: grid;
+    margin-left: 1vw;
+    grid-gap: 0.5vw;
+    width: 50vw;
+}
+
+.card
+{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    height: 16vh;
+    width: 10vw;
+    text-align: center;
+    border-radius: 1vw;
+}
